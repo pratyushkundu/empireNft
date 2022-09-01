@@ -1,0 +1,22 @@
+       <Carousel
+                swipeable={false}
+                draggable={false}
+                responsive={responsive}
+                centerMode={true}
+                infinite={true}
+                autoPlay={true}
+                autoPlaySpeed={1500}
+                keyBoardControl={true}
+                showDots={false}
+                containerClass="carousel-container"
+                // removeArrowOnDeviceType={["tablet", "mobile"]}
+                dotListClass="custom-dot-list-style"
+                itemClass="carousel-item-padding-40-px">
+                {
+
+                  popCollection?.map((data) => <div className='collection_div_2'>
+                    <Collection data={data} />
+                  </div>)
+
+                }
+              </Carousel>

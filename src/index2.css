@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  /* max-width: 120rem; */
+  margin: 0 auto;
+  /* padding: 0 20px; */
+}
+
+.slide-container {
+  width: 130rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+.fade_out {
+  width: 144rem;
+  height: 47.8rem;
+  display: flex;
+  flex-direction: row;
+}
+.left_click_div {
+  width: 16rem;
+  height: 47.8rem;
+  background: #02172a;
+  /* filter: blur(3.5rem); */
+  filter: drop-shadow(5rem 3px 3.5rem #02172a);
+  /* border: 2px solid white; */
+}
+.right_click_div {
+  width: 16rem;
+  height: 47.8rem;
+  background: #02172a;
+  /* filter: blur(3.5rem); */
+  filter: drop-shadow(-5rem 3px 3.5rem #02172a);
+  /* border: 2px solid white; */
+}
+#fire{
+  
+    margin-top: 21rem;
+    margin-left:6.7rem ;
+}
+#fire1{
+
+    margin-top: 21rem;
+    margin-left: 4rem;
+}
+.nft_cards_div {
+  /* border: 2px solid white; */
+  width: 111.6rem;
+  height: 43.3rem;
+}
+
+.arrow {
+  width: 2rem;
+  margin: 0 1rem;
+}
+
+section {
+  width: 120rem;
+  /* height: 300px; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid black;
+}
+
+section::-webkit-scrollbar {
+  height: 5px;
+  width: 2px;
+  border: 1px solid #d5d5d5;
+  background: #d5d5d5;
+}
+
+section::-webkit-scrollbar-track {
+  --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+section::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+  outline: 1px solid #eee;
+  /* border-radius: 100px; */
+}
+
+section .thumbnail {
+  flex: 0 0 auto;
+  object-fit: cover;
+  cursor: pointer;
+  margin: 5px;
+  border: 1px solid var(--black);
+  overflow: hidden;
+  transform: scale(0.95);
+  transition: all 0.3s;
+  /* margin-left: -2rem; */
+  margin-right: 2.5rem;
+}
+/* .thumbnail{
+    width:25%
+} */
+
+/* section .thumbnail:hover {
+  transform: scale(1);
+} */
+.container {
+  display: flex;
+  flex-direction: row;
+}
