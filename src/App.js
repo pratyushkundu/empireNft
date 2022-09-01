@@ -22,9 +22,9 @@ import Collection from './collectiondiv/collection';
 // import "slick-carousel/slick/slick-theme.css";
 // import React, { Component } from "react";
 // import Slider from "react-slick";
-import App1 from './App1'
+// import App1 from './App1'
 import Card from './collectiondiv/card'
-import Apps from './App1';
+// import Apps from './App1';
 import Collectors_cards from './collectiondiv/collectors_cards';
 import pic2 from './images/Group2.png'
 import pic3 from './images/Group3.png'
