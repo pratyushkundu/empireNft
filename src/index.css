@@ -81,11 +81,11 @@ html {
   position: absolute;
   margin-top: 11rem;
 }
-.hero_imgs{
-  background:url('images/Hero\ Images.png');
+.hero_imgs {
+  background: url("images/Hero\ Images.png");
   margin-left: 9.9rem;
   width: 124.1rem;
-height: 53rem;
+  height: 53rem;
 }
 .catch_phrase {
   display: flex;
@@ -152,12 +152,12 @@ height: 53rem;
 }
 .hero_imgs {
 }
-.line_stroke{
+.line_stroke {
   margin-top: -2.2rem;
   margin-left: 7rem;
 }
 .partners_div {
-    margin-top: -0.6rem;
+  margin-top: -0.6rem;
   /* margin-top: 51rem; */
   position: absolute;
   width: 144rem;
@@ -280,6 +280,7 @@ height: 53rem;
 .popular_collections_1 {
   margin-left: 55.7rem;
   margin-top: 11rem;
+  
 }
 .collection_div_1 {
   /* position: absolute; */
@@ -294,6 +295,7 @@ height: 53rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  
   gap: 11.1rem;
   margin-left: 12rem;
   margin-top: 4rem;
@@ -302,7 +304,7 @@ height: 53rem;
   /* position: absolute; */
   width: 32.6rem;
   height: 25.6rem;
-  background: url(images/Rectangle1.png) no-repeat;
+  /* background: url(images/Rectangle1.png) no-repeat; */
   border-radius: 1.4rem;
 }
 .verified_img {
@@ -320,10 +322,10 @@ height: 53rem;
   /* flex-direction: row; */
   /* justify-content: center; */
 }
-.wrap_div{
+.wrap_div {
   display: flex;
   flex-direction: column;
-align-items: center;
+  align-items: center;
 }
 .collection_number {
   width: 0.9rem;
@@ -352,7 +354,7 @@ align-items: center;
   color: #ececec;
   margin-left: 53.5rem;
 }
-.popular_collection_section_head {
+.popular_collection_section_head,.popular_collection_section_heading {
   position: absolute;
   /* width: 18rem; */
   height: 3rem;
@@ -368,6 +370,9 @@ align-items: center;
   display: flex;
   flex-direction: row;
   margin-top: 2.7rem;
+}
+.popular_collection_section_heading {
+margin-left: 4.7rem;
 }
 .description_section {
   margin-top: 7rem;
@@ -489,6 +494,7 @@ align-items: center;
   width: 74.9rem;
   height: 68.4rem;
   margin-left: 34.5rem;
+  margin-top:20rem;
 }
 .top_collectors_head {
   width: 27.1rem;
@@ -889,3 +895,116 @@ align-items: center;
   margin-top: 0.9rem;
   margin-left: 0.9rem;
 }
+
+/* .featured_projects_carousel {
+  width: 144rem;
+  height: 39.4rem;
+} */
+.featured_project_section{
+}
+
+.featured_projects {
+  /* background: url(images/ProjectImg.png) 27rem no-repeat; */
+  
+  width: 62.7rem;
+  height: 39.4rem;
+  border: 2px solid black;
+ 
+  margin-right: 3rem;
+  border-radius: 1.2rem;
+}
+.right{
+  width: 30.5rem;
+  height: 39.4rem;
+  background: url(images/ProjectImg.png)  no-repeat;
+}
+
+.featured_projects_div_left {
+  display: flex;
+  flex-direction: row;
+  width: 30.5rem;
+  height: 39.4rem;
+  background: #072036;
+  border-radius: 1.2rem;
+  border: 2px solid black;
+  /* margin-left: -36rem; */
+}
+.project_div {
+  
+    background: #072036;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4.2rem;
+  margin-left: 4.2rem;
+
+
+}
+.project_title {
+  width: 15.7rrem;
+  height: 2.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #ececec;
+}
+.project_description {
+  width: 22rem;
+  height: 12rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #aaafb3;
+  margin-top: 3.1rem;
+  margin-bottom: 3rem;
+}
+.view_project_button {
+  width: 14.9rem;
+  height: 3.6rem;
+  background: #37dbd1;
+  border-radius: 0.4rem;
+  margin-bottom: 3.4rem;
+  padding-top: 0.9em;
+  padding-left: 2rem;
+}
+#button_7 {
+  width: 10.9rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #0e2c47;
+}
+.PFPs_div {
+  display: flex;
+  flex-direction: row;
+  gap: 1.4rem;
+}
+.PFPs_image {
+}
+.team_size {
+  width: 11.7rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #aaafb3;
+  margin-top: 0.65rem;
+}
+/* .featured_projects_div_right {
+  width: 35.1rem;
+height: 39.4rem;
+  background: url(images/ProjectImg.png) no-repeat;
+  border: 2px solid red;
+} */

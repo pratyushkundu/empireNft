@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import './index2.css'
 import img1 from './images/image 2.png';
 import img2 from './images/image 3.png';
 import img3 from './images/image 4.png';
@@ -22,9 +22,9 @@ import Collection from './collectiondiv/collection';
 // import "slick-carousel/slick/slick-theme.css";
 // import React, { Component } from "react";
 // import Slider from "react-slick";
-// import App1 from './App1'
+import App1 from './App1'
 import Card from './collectiondiv/card'
-// import Apps from './App1';
+import Apps from './App1';
 import Collectors_cards from './collectiondiv/collectors_cards';
 import pic2 from './images/Group2.png'
 import pic3 from './images/Group3.png'
@@ -47,6 +47,7 @@ import backgroundImg9 from './images/Rectangle10.png'
 
 import Learning_section_group_cards from './collectiondiv/learning_section_group_cards';
 import Collection_only_one from './collectiondiv/collection_only_one';
+import Featured_projects_card from './collectiondiv/featured_projects_card';
 
 function App() {
 
@@ -99,15 +100,15 @@ function App() {
   ]
 
   const popularCollection = [
-    { id: 2, collectionName: "CloneX", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image1,backgroundCollectionImage:backgroundImg },
-    { id: 3, collectionName: "Azuki", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image2 ,backgroundCollectionImage:backgroundImg1},
-    { id: 4, collectionName: "OtherDeeds", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image3,backgroundCollectionImage:backgroundImg2 },
-    { id: 5, collectionName: "IlluminatiNFT", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image4 ,backgroundCollectionImage:backgroundImg3},
-    { id: 6, collectionName: "Parallel", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image5,backgroundCollectionImage:backgroundImg5 },
-    { id: 7, collectionName: "Moonbirds", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image6,backgroundCollectionImage:backgroundImg6 },
-    { id: 8, collectionName: "The SNKRZ NFT", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image7,backgroundCollectionImage:backgroundImg7 },
-    { id: 9, collectionName: "DeGods", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image8,backgroundCollectionImage:backgroundImg8 },
-    { id: 10, collectionName: "Mfers", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image9,backgroundCollectionImage:backgroundImg9 }
+    { id: 2, collectionName: "CloneX", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image1, backgroundCollectionImage: backgroundImg },
+    { id: 3, collectionName: "Azuki", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image2, backgroundCollectionImage: backgroundImg1 },
+    { id: 4, collectionName: "OtherDeeds", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image3, backgroundCollectionImage: backgroundImg2 },
+    { id: 5, collectionName: "IlluminatiNFT", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image4, backgroundCollectionImage: backgroundImg3 },
+    { id: 6, collectionName: "Parallel", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image5, backgroundCollectionImage: backgroundImg5 },
+    { id: 7, collectionName: "Moonbirds", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image6, backgroundCollectionImage: backgroundImg6 },
+    { id: 8, collectionName: "The SNKRZ NFT", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image7, backgroundCollectionImage: backgroundImg7 },
+    { id: 9, collectionName: "DeGods", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image8, backgroundCollectionImage: backgroundImg8 },
+    { id: 10, collectionName: "Mfers", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image9, backgroundCollectionImage: backgroundImg9 }
   ]
 
   const collectorsCards1 = [
@@ -187,28 +188,28 @@ function App() {
               <div className="Auction_text">Auctions</div>
             </div>
           </div>
-          <div className="featured_projects_carousel" style={{ marginLeft: "12rem" }}>
-            {/* <div>
-              <Slider {...settings}>
-                <div style={{ width: "26rem" }}>
-                  <App1 />
-                </div>
-                <div style={{ width: "26rem" }}>
-                  <App1 />
-                </div>
-                <div style={{ width: "26rem" }}>
-                  <App1 />
-                </div>
-              </Slider>
-            </div> */}
-          </div>
+          {/* <div className="featured_projects_carousel" style={{ marginLeft: "12rem" }}> */}
+          {/* <div className="projects">
+            <section id="">
+              <div className="featured_projects">
+                <Featured_projects_card />
+              </div>
+              <div className="featured_projects">
+                <Featured_projects_card />
+              </div>
+              <div className="featured_projects">
+                <Featured_projects_card />
+              </div>
+            </section>
+          </div> */}
+          {/* </div> */}
         </div>
 
         <div className='popular_collections'>
           <div className='popular_collection_head'>Popular Collections</div>
           <div className='popular_collections_1'>
             <div className='collection_div_1'>
-              <Collection_only_one/>
+              <Collection_only_one />
             </div>
           </div>
           <div className='popular_collections_2'>
@@ -235,7 +236,6 @@ function App() {
               <img src="images/Polygon 4.png" id="fire" />
             </div>
             <div className='nft_cards_div'>
-            
               <section className="container" id="slider">
                 <div className="thumbnail">
                   <Card />
@@ -269,9 +269,9 @@ function App() {
             <div className='right_click_div'>
               <img src="images/Polygon 5.png" id="fire1" />
             </div>
-          </div> */}
-        {/* </div> */}
-        {/* <div className='top_collectors'>
+          </div>
+        </div> */}
+        <div className='top_collectors'>
           <div className='top_collectors_head'>Top Collectors</div>
           <div className='collectors_cards_div'>
             <div className='collectors_cards_top'>
@@ -301,8 +301,8 @@ function App() {
           <div className='collectors_button'>
             <div id="button_5">View all Collectors</div>
           </div>
-        </div> */}
-        {/* <div className='learning_section'>
+        </div>
+        <div className='learning_section'>
           <div className='create_and_sell_head'>How to Create and Sell your NFTs</div>
           <div className='info_div'>
             <div className='group_up'>
@@ -327,7 +327,7 @@ function App() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
         {/* <div className='partnership_banner'>
 
           <div className='partnership_head'>Are you a project Looking for partnership?</div>
@@ -337,11 +337,11 @@ function App() {
           <div className='contact_button'>
             <div id="button_6">Contact Us</div>
           </div>
-        </div> */}
-        {/* <div className='partner_div'>
+        </div>
+        <div className='partner_div'>
           <img src="images/Mask group.png" className='hide' />
         </div> */}
-        {/* <div className='footer'>
+        <div className='footer'>
           <div className='footer_top'>
             <div className='logo_div'>
               <img className='logo_img' src="images/LogoEmpre.png"></img>
@@ -379,7 +379,7 @@ function App() {
                   <img id="img2" src="images/Twitter.png"></img>
                 </div>
                 <div className='social_handles'>
-                  <img  id="img3" src="images/Instagram.png"></img>
+                  <img id="img3" src="images/Instagram.png"></img>
                 </div>
                 <div className='social_handles'>
                   <img id="img4" src="images/dribbble.png"></img>
@@ -390,7 +390,7 @@ function App() {
           <div className='footer_bottom'>
             <div className='copyright_head'>© Empire NFT Marketplace 2021.</div>
           </div>
-        </div> */}
+        </div>
       </div>
     </div >
   );

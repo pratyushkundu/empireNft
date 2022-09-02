@@ -64,9 +64,24 @@ html {
 }
 
 section {
-  width: 120rem;
+  width: 144rem;
   /* height: 300px; */
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid black;
+
+
+}
+.projects{
+  width: 144rem;
+  /* height: 39.4rem; */
+  margin: 0 ;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -75,7 +90,6 @@ section {
   -webkit-overflow-scrolling: touch;
   border: 1px solid black;
 }
-
 section::-webkit-scrollbar {
   height: 5px;
   width: 2px;

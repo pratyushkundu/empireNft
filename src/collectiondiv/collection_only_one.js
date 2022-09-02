@@ -9,7 +9,7 @@ const Collection_only_one = () => {
                 </div>
                 <div className='popular_collection_section_description'>
                     <div className='collection_number'>1</div>
-                    <div className='popular_collection_section_head'>CloneX</div>
+                    <div className='popular_collection_section_heading'>Mutant Ape Yatch Club</div>
                     <div className='description_section'>
                         <div className='floor'>
                             <div className='floor_head'>Floor price</div>
