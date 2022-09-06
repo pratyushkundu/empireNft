@@ -943,6 +943,18 @@ html {
   margin-top: 0.9rem;
   margin-left: 0.9rem;
 }
+
+@media (min-width:1440px) and (max-width:1520px){
+  html {
+    font-size: 67.95%;
+  }
+}
+@media (min-width:1520px) and (max-width:1700px){
+  /* html {
+    font-size: 72.5%;
+  } */
+}
+
 /* .higlighted_items_div{
   display: flex;
   flex-direction: column;
