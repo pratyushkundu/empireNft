@@ -1,0 +1,108 @@
+
+.slide-container {
+  width: 130rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+.featured_projects_carousel {
+  margin-top: 11rem;
+  margin-bottom: 16rem;
+  width: 144rem;
+}
+
+.featured_projects {
+  display: flex;
+  flex-direction: row;
+  width: 62.7rem;
+  height: 39.4rem;
+  margin-right: 3rem;
+  border-radius: 1.2rem;
+}
+.featured_projects_div_right {
+  width: 35.1rem;
+  height: 39.4rem;
+  background: url(../images/ProjectImg.png) no-repeat;
+  background-size: 100% 100%;
+  margin-left: -3rem;
+}
+
+.featured_projects_div_left {
+  width: 30.5rem;
+  height: 39.4rem;
+  background: #072036;
+  border-radius: 1.2rem;
+  z-index: 1;
+}
+.project_div {
+  background: #072036;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4.2rem;
+  margin-left: 4.2rem;
+}
+.project_title {
+  width: 15.7rrem;
+  height: 2.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #ececec;
+}
+.project_description {
+  width: 22rem;
+  height: 12rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #aaafb3;
+  margin-top: 3.1rem;
+  margin-bottom: 3rem;
+}
+.view_project_button {
+  width: 14.9rem;
+  height: 3.6rem;
+  background: #37dbd1;
+  border-radius: 0.4rem;
+  margin-bottom: 3.4rem;
+  padding-top: 0.9em;
+  padding-left: 2rem;
+}
+#button_7 {
+  width: 10.9rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #0e2c47;
+}
+.PFPs_div {
+  display: flex;
+  flex-direction: row;
+  gap: 1.4rem;
+}
+.PFPs_image {
+}
+.team_size {
+  width: 11.7rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #aaafb3;
+  margin-top: 0.65rem;
+}

@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import './index2.css'
+
 import img1 from './images/image 2.png';
 import img2 from './images/image 3.png';
 import img3 from './images/image 4.png';
 import img4 from './images/image 5.png';
 import img5 from './images/image 6.png';
+
 import image1 from './images/PFP1.png';
 import image2 from './images/PFP1.png'
 import image3 from './images/PFP1.png'
@@ -16,16 +16,10 @@ import image7 from './images/PFP1.png'
 import image8 from './images/PFP1.png'
 import image9 from './images/PFP1.png'
 import image10 from './images/PFP1.png'
-import 'bootstrap/dist/css/bootstrap.min.css'
+
 import Collection from './collectiondiv/collection';
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-// import React, { Component } from "react";
-// import Slider from "react-slick";
-import App1 from './App1'
-import Card from './collectiondiv/card'
-import Apps from './App1';
 import Collectors_cards from './collectiondiv/collectors_cards';
+
 import pic2 from './images/Group2.png'
 import pic3 from './images/Group3.png'
 import pic4 from './images/Group4.png'
@@ -34,6 +28,7 @@ import pict1 from './images/image8.png'
 import pict2 from './images/image9.png'
 import pict3 from './images/image10.png'
 import pict4 from './images/image11.png'
+
 import backgroundImg from './images/Rectangle1.png'
 import backgroundImg1 from './images/Rectangle2.png'
 import backgroundImg2 from './images/Rectangle3.png'
@@ -44,10 +39,11 @@ import backgroundImg7 from './images/Rectangle8.png'
 import backgroundImg8 from './images/Rectangle9.png'
 import backgroundImg9 from './images/Rectangle10.png'
 
-
+import Top_trending_section_slider from './top_trending_section_slider/Slider'
+import Higlighted_Section from './highlighted_Section/Slider';
+import App2 from './featuredProjects_Slider/Slider';
 import Learning_section_group_cards from './collectiondiv/learning_section_group_cards';
 import Collection_only_one from './collectiondiv/collection_only_one';
-import Featured_projects_card from './collectiondiv/featured_projects_card';
 
 function App() {
 
@@ -58,46 +54,6 @@ function App() {
     { id: 4, logo: img4 },
     { id: 5, logo: img5 },
   ];
-
-  const settings = {
-    className: "slider variable-width",
-    dots: true,
-    infinite: true,
-    centerMode: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    variableWidth: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
-  const popCollection = [
-    { id: 2, collectionName: "CloneX", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "250,522", collectionLogo: image1 },
-
-  ]
 
   const popularCollection = [
     { id: 2, collectionName: "CloneX", floorPrice: "4.5 ", VolumePrice: "250,522", percentPrice: "+200%", collectionLogo: image1, backgroundCollectionImage: backgroundImg },
@@ -188,21 +144,7 @@ function App() {
               <div className="Auction_text">Auctions</div>
             </div>
           </div>
-          {/* <div className="featured_projects_carousel" style={{ marginLeft: "12rem" }}> */}
-          {/* <div className="projects">
-            <section id="">
-              <div className="featured_projects">
-                <Featured_projects_card />
-              </div>
-              <div className="featured_projects">
-                <Featured_projects_card />
-              </div>
-              <div className="featured_projects">
-                <Featured_projects_card />
-              </div>
-            </section>
-          </div> */}
-          {/* </div> */}
+          <App2 />
         </div>
 
         <div className='popular_collections'>
@@ -223,19 +165,22 @@ function App() {
             <div id="button_4">View all Collections</div>
           </div>
         </div>
-        {/* <div className='top_trending_section'>
+        <div className='top_trending_section'>
           <div className='top_trending_top'>
-            <div className='top_trending_head'></div>
-            <select id="trending">
-              <option ></option>
-              <option></option>
-            </select>
+            <div className='top_trending_head'>Top Trending items</div>
+            <div>
+              <select id="trending">
+                <option>Select category</option>
+                <option></option>
+              </select>
+            </div>
           </div>
           <div className='fade_out'>
+          
             <div className='left_click_div'>
-              <img src="images/Polygon 4.png" id="fire" />
+              <img src="images/Polygon 4.png" id="left_click_btn" />
             </div>
-            <div className='nft_cards_div'>
+            {/* <div className='nft_cards_div'>
               <section className="container" id="slider">
                 <div className="thumbnail">
                   <Card />
@@ -265,12 +210,32 @@ function App() {
                   <Card />
                 </div>
               </section>
-            </div>
+            </div> */}
+            <Top_trending_section_slider />
+
             <div className='right_click_div'>
-              <img src="images/Polygon 5.png" id="fire1" />
+              <img src="images/Polygon 5.png" id="right_click_btn" />
             </div>
           </div>
-        </div> */}
+        </div>
+        <div className='higlighted_items_div'>
+          <div className='highlighted_div_top'>
+            <div className='highlighted_div_head'>Highlighted Items</div>
+          </div>
+          <div className='highlighted_div_bottom'>
+
+            <div className='high_left_click_div'>
+              <img src="images/Polygon 4.png" id="left_click_btn" />
+            </div>
+
+            <Higlighted_Section/>
+
+            <div className='high_right_click_div'>
+              <img src="images/Polygon 5.png" id="right_click_btn" />
+            </div>
+
+          </div>
+        </div>
         <div className='top_collectors'>
           <div className='top_collectors_head'>Top Collectors</div>
           <div className='collectors_cards_div'>
@@ -328,7 +293,7 @@ function App() {
             </div>
           </div>
         </div>
-        {/* <div className='partnership_banner'>
+        <div className='partnership_banner'>
 
           <div className='partnership_head'>Are you a project Looking for partnership?</div>
           <div className='get_in_touch'>
@@ -338,7 +303,7 @@ function App() {
             <div id="button_6">Contact Us</div>
           </div>
         </div>
-        <div className='partner_div'>
+        {/* <div className='partner_div'>
           <img src="images/Mask group.png" className='hide' />
         </div> */}
         <div className='footer'>

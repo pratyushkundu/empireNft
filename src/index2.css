@@ -25,6 +25,7 @@ html {
   height: 47.8rem;
   display: flex;
   flex-direction: row;
+  margin-top: 12rem;
 }
 .left_click_div {
   width: 16rem;
@@ -42,14 +43,14 @@ html {
   filter: drop-shadow(-5rem 3px 3.5rem #02172a);
   /* border: 2px solid white; */
 }
-#fire{
+#left_click_btn{
   
-    margin-top: 21rem;
+    margin-top: 20rem;
     margin-left:6.7rem ;
 }
-#fire1{
+#right_click_btn{
 
-    margin-top: 21rem;
+    margin-top: 20rem;
     margin-left: 4rem;
 }
 .nft_cards_div {
@@ -64,8 +65,8 @@ html {
 }
 
 section {
-  width: 144rem;
-  /* height: 300px; */
+  width: 111.6rem;
+  height: 40rem;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -74,21 +75,21 @@ section {
   flex-wrap: nowrap;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  border: 1px solid black;
-
-
+  /* border: 1px solid black; */
+  
 }
 .projects{
   width: 144rem;
-  /* height: 39.4rem; */
+  height: 39.4rem;
   margin: 0 ;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  flex-wrap: nowrap;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 section::-webkit-scrollbar {
   height: 5px;
@@ -129,4 +130,15 @@ section .thumbnail {
 .container {
   display: flex;
   flex-direction: row;
+}
+.card_box{
+  margin-right: 3rem;
+  /* margin-left: -17rem; */
+/* }
+.card_boxz1{
+  margin-left: -15rem;
+}
+.card_boxz{
+  margin-left: -19rem;
+  z-index: -1; */
 }

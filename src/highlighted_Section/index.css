@@ -1,0 +1,263 @@
+
+
+.swiper {
+  width: 65%;
+  margin-left: 22rem;
+  border: 2px solid white;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-left: -1.5rem;
+  z-index: -1;
+  transform: scale(0.9);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-slide-active {
+  transform: scale(1);
+  z-index: 1;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-wrapper {
+  margin-left: 15rem;
+}
+
+.nft_card {
+  /* position: absolute; */
+  width: 28.8rem;
+  height: 41.9rem;
+  background: #072036;
+  border-radius: 1.5rem;
+  /* margin-left: 20rem; */
+  /* margin-top: 10rem; */
+  border: 2px solid white;
+}
+.card_div_top {
+  width: 26rem;
+  height: 27.4rem;
+  border-radius: 1rem;
+  margin-left: 1.4rem;
+  /* margin-top: 1.4rem; */
+  padding-top: 1.4rem;
+}
+.nft_img {
+  background: url("../images/NFT1.png");
+  width: 26rem;
+  height: 26rem;
+  border-radius: 1rem;
+}
+.card_div_bottom {
+  margin-top: 1rem;
+  margin-left: 1.4rem;
+}
+.naming_likes_div {
+  display: flex;
+  flex-direction: row;
+  gap: 9.99rem;
+}
+.Naming_div {
+  width: 12.2rem;
+  height: 4.6rem;
+  display: flex;
+  flex-direction: column;
+}
+.nft_name {
+  width: 5.7rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #a4a4a4;
+}
+.nft_hastag {
+  margin-top: 1rem;
+  width: 12.2rem;
+  height: 1.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #ececec;
+}
+.likes_div {
+  width: 3.9rem;
+  height: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.494rem;
+}
+.likes_number {
+  width: 1.7rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #a4a4a4;
+}
+.pricing_div {
+  width: 26rem;
+  height: 6.1rem;
+  background: #0e2c47;
+  border-radius: 0.7rem;
+  margin-top: 1.4rem;
+  margin-left: 1.4rem;
+  padding: 1rem;
+}
+.pricing_inner_div {
+  display: flex;
+  flex-direction: row;
+  gap: 4.8rem;
+}
+.pricing_left {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  height: 4.1rem;
+}
+.listed_price_head {
+  width: 8rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #a4a4a4;
+}
+.listed_price {
+  margin-left: 0.2rem;
+  width: 5.8rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #ececec;
+  margin-top: 0.7rem;
+}
+.pricing_right {
+  width: 9.2rem;
+  height: 4.1rem;
+  display: flex;
+  flex-direction: column;
+}
+.highest_price_head {
+  width: 9.2rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #a4a4a4;
+}
+.highest_price {
+  margin-left: 0.4rem;
+  width: 7rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #ececec;
+  margin-top: 0.7rem;
+}
+.higlighted_items_div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 16rem;
+}
+.highlighted_div_top{
+
+  
+}
+.highlighted_div_bottom{
+  margin-left: 2rem;
+  width: 140rem;
+  height: 47.8rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 13rem;
+  border: 2px solid white;
+}
+.highlighted_div_head{
+  width: 33.5rem;
+  height: 4.6rem;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ECECEC;
+  margin-left: 55.2rem;
+}
+.high_left_click_div {
+  width: 16.2rem;
+  height: 47.8rem;
+  background: #02172a;
+  /* filter: blur(3.5rem); */
+  filter: drop-shadow(5rem 3px 3.5rem #02172a);
+  border: 2px solid white;
+}
+.high_right_click_div {
+  width: 16.2rem;
+  height: 47.8rem;
+  background: #02172a;
+  /* filter: blur(3.5rem); */
+  filter: drop-shadow(-5rem 3px 3.5rem #02172a);
+  border: 2px solid white;
+}
+
+.swiper-button-prev{
+  /* visibility: hidden; */
+  color:white
+}
+.swiper-button-next{
+/* visibility: hidden; */
+color:white
+}

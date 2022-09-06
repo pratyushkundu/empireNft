@@ -2,10 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import SliderWrapper from "./featuredProjects_Slider/SlickSlider";
-import './index1.css';
-import './index2.css';
-import Card from "./collectiondiv/card";
+import SliderWrapper from "./SlickSlider"
+import '../index1.css';
+import './index.css';
+import Card from "../collectiondiv/card";
 
 function Apps() {
     const settings = {

@@ -19,8 +19,9 @@ const featured_projects_card = () => {
                     <div className='team_size'>6 Team members</div>
                 </div>
             </div>
-            <div className='right'></div>
+          
         </div>
+        <div className='featured_projects_div_right'></div>
 
     </>
     )

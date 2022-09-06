@@ -46,3 +46,33 @@
             <div className='right' >
                 <img src="images/ProjectImg.png" />
             </div>
+
+
+            <div className='fade_out'>
+              <div className='left_click_div'>
+                  <img src="images/Polygon 4.png" id="fire" />
+              </div>
+              <div className='nft_cards_div'>
+                  <section className="container" id="slider">
+                      <div className="thumbnail">
+                          <Card />
+                      </div>
+                      <div className="thumbnail" style={{marginLeft:"-19rem"}}>
+                          <Card />
+                      </div>
+                      <div className="thumbnail"  style={{marginLeft:"-17rem"}}>
+                          <Card />
+                      </div>
+                      <div className="thumbnail" style={{marginLeft:"-17rem",zIndex:"-1"}}>
+                          <Card />
+                      </div>
+                      <div className="thumbnail" style={{marginLeft:"-19rem",zIndex:"-2"}}>
+                          <Card />
+                      </div>
+                     
+                  </section>
+              </div>
+              <div className='right_click_div'>
+                  <img src="images/Polygon 5.png" id="fire1" />
+              </div>
+          </div>
