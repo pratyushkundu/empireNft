@@ -302,6 +302,7 @@ html {
   width: 32.6rem;
   height: 25.6rem;
   /* background: url(images/Rectangle4.png) no-repeat; */
+   margin-bottom: 6rem;
 }
 .popular_collections_2 {
   display: flex;
@@ -310,7 +311,7 @@ html {
 row-gap: 4rem;
   column-gap: 11.1rem;
   margin-left: 12rem;
-  margin-top: 4rem;
+ 
 }
 .collection_div_2 {
   /* position: absolute; */
