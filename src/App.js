@@ -151,6 +151,9 @@ function App() {
           <div className='popular_collection_head'>Popular Collections</div>
           <div className='popular_collections_1'>
             <div className='collection_div_1'>
+              <div className='tata'>
+                <img src="images/Rectangle4.png" id="tata" />
+              </div>
               <Collection_only_one />
             </div>
           </div>
@@ -176,7 +179,7 @@ function App() {
             </div>
           </div>
           <div className='fade_out'>
-          
+
             <div className='left_click_div'>
               <img src="images/Polygon 4.png" id="left_click_btn" />
             </div>
@@ -228,7 +231,7 @@ function App() {
               <img src="images/Polygon 4.png" id="left_click_btn" />
             </div>
 
-            <Higlighted_Section/>
+            <Higlighted_Section />
 
             <div className='high_right_click_div'>
               <img src="images/Polygon 5.png" id="right_click_btn" />

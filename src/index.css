@@ -19,7 +19,9 @@ html {
   height: 104.4rem;
   left: 0px;
   top: 0px;
-  background: url(images/backgroundhero.png);
+  background: url(images/backgroundhero.png) no-repeat;
+  background-size: 100% 100%;
+  object-fit: cover;
 }
 .top_div {
   position: absolute;
@@ -82,7 +84,10 @@ html {
   margin-top: 11rem;
 }
 .hero_imgs {
-  background: url("images/Hero\ Images.png");
+  background: url("images/Hero\ Images.png") no-repeat;
+  background-size: 100% 100%;
+  object-fit: cover;
+
   margin-left: 9.9rem;
   width: 124.1rem;
   height: 53rem;
@@ -127,14 +132,14 @@ html {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 16px 36px;
-  gap: 10px;
-  width: 264px;
-  height: 62px;
+  padding: 1.6rem 3.6rem;
+  gap: 1rem;
+  width: 26.4rem;
+  height: 6.2rem;
   background: linear-gradient(95.13deg, #18e9d9 -14.27%, #875fea 130.74%);
-  box-shadow: 0px -6px 12px rgba(67, 249, 238, 0.25),
-    0px 6px 12px rgba(67, 249, 238, 0.2);
-  border-radius: 6px;
+  box-shadow: 0px -0.6rem 1.2rem rgba(67, 249, 238, 0.25),
+    0px 0.6rem 1.2rem rgba(67, 249, 238, 0.2);
+  border-radius: 0.6rem;
   margin-top: 4.5rem;
   margin-left: 59.8rem;
 }
@@ -296,31 +301,40 @@ html {
   flex-wrap: wrap;
   width: 32.6rem;
   height: 25.6rem;
-  background: url(images/Rectangle4.png) no-repeat;
+  /* background: url(images/Rectangle4.png) no-repeat; */
 }
 .popular_collections_2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
-  gap: 11.1rem;
+row-gap: 4rem;
+  column-gap: 11.1rem;
   margin-left: 12rem;
   margin-top: 4rem;
 }
 .collection_div_2 {
   /* position: absolute; */
   width: 32.6rem;
-  height: 25.6rem;
+  height: 25.4rem;
   /* background: url(images/Rectangle1.png) no-repeat; */
   border-radius: 1.4rem;
 }
+#tata{
+  width:32.6rem;
+  z-index:-1;
+  height:12.8rem;
+}
 .verified_img {
-  margin-top: 6.4rem;
+  margin-top: -2rem;
   margin-left: 12.6rem;
   z-index: 9999;
 }
+.popular_collection_section{
+  z-index: 1;
+  margin-top: -2rem;
+}
 .popular_collection_section_description {
-  margin-top: -3.2rem;
+  margin-top: -4rem;
   width: 32.6rem;
   height: 16rem;
   background: #072036;
@@ -452,13 +466,13 @@ html {
   color: #d9d9d9;
 }
 .price_up {
-  width: 45px;
-  height: 17px;
+  width: 4.5rem;
+  height: 1.7rem;
   margin-top: 0.1rem;
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 120%;
   letter-spacing: 0.04em;
   color: #84df3c;
@@ -731,7 +745,9 @@ html {
   width: 120rem;
   height: 32rem;
   /* background: linear-gradient(137.08deg, #17EADB -4.18%, #8960EC 147.45%); */
-  background-image: url("images/Rect.png");
+  background: url("images/Rect.png") no-repeat;
+  background-size: 100% 100%;
+  object-fit: cover;
   border-radius: 2rem;
   margin-top: 16rem;
   margin-left: 12rem;
@@ -944,15 +960,39 @@ html {
   margin-left: 0.9rem;
 }
 
-@media (min-width:1440px) and (max-width:1520px){
+@media (min-width:1441px) and (max-width:1538px){
   html {
-    font-size: 67.95%;
+    font-size: 65.95%;
+
+  }
+  .collection_div_2 {
+    /* position: absolute; */
+    width: 32.6rem;
+    height: 30rem;
+    /* background: url(images/Rectangle1.png) no-repeat; */
+    border-radius: 1.4rem;
+  }
+ 
+}
+@media (min-width:1539px) and (max-width:1670px){
+  html {
+    font-size: 72.5%;
   }
 }
-@media (min-width:1520px) and (max-width:1700px){
-  /* html {
-    font-size: 72.5%;
-  } */
+@media (min-width:1670px) and (max-width:1774px) {
+  html {
+    font-size: 77%;
+  }
+}
+@media (min-width:1774px) and (max-width:1959px){
+  html {
+    font-size: 82.5%;
+  }
+}
+@media (min-width:1960px) {
+  html {
+    font-size: 90%;
+  }
 }
 
 /* .higlighted_items_div{

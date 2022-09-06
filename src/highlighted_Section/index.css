@@ -67,6 +67,8 @@
 }
 .nft_img {
   background: url("../images/NFT1.png");
+  background-size: 100% 100%;
+  object-fit: cover;
   width: 26rem;
   height: 26rem;
   border-radius: 1rem;

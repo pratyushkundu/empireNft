@@ -3,6 +3,9 @@ import React from 'react'
 const Collection = ({ data }) => {
     return (
         <div className='collection_div_2' style={{background:`url(${data.backgroundCollectionImage}) no-repeat`}}>
+        <div className='tata'>
+            <img src={data.backgroundCollectionImage} id="tata"/>
+        </div>
             <div className='popular_collection_section' >
                 <div className='verified_img'>
                     <img src={data.collectionLogo} />
