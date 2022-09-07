@@ -1,56 +1,98 @@
-
-
-.swiper {
-  width: 65%;
-  margin-left: 22rem;
-  border: 2px solid white;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
-
-.swiper-slide {
+html {
+  font-size: 62.5%;
+}
+h1 {
+  margin: 15rem auto 3rem auto;
   text-align: center;
-  font-size: 18px;
-  /* background: #fff; */
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-  margin-left: -1.5rem;
-  z-index: -1;
-  transform: scale(0.9);
+  color: #fff;
 }
 
-.swiper-slide img {
-  display: block;
+.hi-slide {
+  position: relative;
+  width: 106rem;
+  height: 45rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  /* border: 2px solid white; */
+}
+
+.hi-slide .hi-next,
+.hi-slide .hi-prev {
+  position: absolute;
+  top: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin-top: -2rem;
+  border-radius: 5rem;
+
+  line-height: 4rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+  transition: all 0.6s;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev:hover {
+  opacity: 1;
+  background-color: #fff;
+}
+
+.hi-slide .hi-prev {
+  left: -6rem;
+}
+
+.hi-slide .hi-prev::before {
+  content: "<";
+}
+.hi-slide .hi-next {
+  right: -6rem;
+}
+.hi-slide .hi-next::before {
+  content: ">";
+}
+
+.hi-slide > ul {
+  list-style: none;
+  position: relative;
+  width: 99rem;
+  height: 48rem;
+  margin: 0;
+  padding: 0;
+}
+
+.hi-slide > ul > li {
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  left: 37.7rem;
+  top: 14.6rem;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  /* border: 0.3rem solid #fff; */
+  background-color: #333;
+  cursor: pointer;
+}
+
+.hi-slide > ul > li > img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-}
-.swiper-slide-active {
-  transform: scale(1);
-  z-index: 1;
-}
-
-.swiper {
-  margin-left: auto;
-  margin-right: auto;
-}
-.swiper-wrapper {
-  margin-left: 15rem;
+  background-position: center;
 }
 
 .nft_card {
   /* position: absolute; */
-  width: 28.8rem;
-  height: 41.9rem;
+  width: 30rem;
+  height: 44rem;
   background: #072036;
   border-radius: 1.5rem;
   /* margin-left: 20rem; */
@@ -66,7 +108,7 @@
   padding-top: 1.4rem;
 }
 .nft_img {
-  background: url("../images/NFT1.png");
+  background: url("NFT1.png");
   background-size: 100% 100%;
   object-fit: cover;
   width: 26rem;
@@ -110,7 +152,7 @@
   font-size: 1.6rem;
   line-height: 120%;
   letter-spacing: 0.04em;
-  color: #ececec;
+  color: #a4a4a4;
 }
 .likes_div {
   width: 3.9rem;
@@ -207,11 +249,6 @@
   color: #ececec;
   margin-top: 0.7rem;
 }
-.higlighted_items_div{
-  display: flex;
-  flex-direction: column;
-  margin-top: 16rem;
-}
 .highlighted_div_top{
 
   
@@ -225,41 +262,20 @@
   margin-top: 13rem;
   border: 2px solid white;
 }
-.highlighted_div_head{
-  width: 33.5rem;
-  height: 4.6rem;
-  font-family: 'Gilroy';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 3.8rem;
-  line-height: 120%;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #ECECEC;
-  margin-left: 55.2rem;
-}
 .high_left_click_div {
-  width: 16.2rem;
-  height: 47.8rem;
-  background: #02172a;
-  /* filter: blur(3.5rem); */
-  /* filter: drop-shadow(5rem 3px 3.5rem #02172a); */
-  border: 2px solid white;
-}
-.high_right_click_div {
-  width: 16.2rem;
-  height: 47.8rem;
-  background: #02172a;
-  /* filter: blur(3.5rem); */
-  /* filter: drop-shadow(-5rem 3px 3.5rem #02172a); */
-  border: 2px solid white;
-}
-
-.swiper-button-prev{
-  /* visibility: hidden; */
-  color:white
-}
-.swiper-button-next{
-/* visibility: hidden; */
-color:white
-}
+    width: 16.2rem;
+    height: 47.8rem;
+    background: #02172a;
+    /* filter: blur(3.5rem); */
+    /* filter: drop-shadow(5rem 3px 3.5rem #02172a); */
+    border: 2px solid white;
+  }
+  .high_right_click_div {
+    width: 16.2rem;
+    height: 47.8rem;
+    background: #02172a;
+    /* filter: blur(3.5rem); */
+    /* filter: drop-shadow(-5rem 3px 3.5rem #02172a); */
+    border: 2px solid white;
+  }
+  

@@ -19,6 +19,7 @@ import image10 from './images/PFP1.png'
 
 import Collection from './collectiondiv/collection';
 import Collectors_cards from './collectiondiv/collectors_cards';
+import Slider from './slider/slider';
 
 import pic2 from './images/Group2.png'
 import pic3 from './images/Group3.png'
@@ -40,7 +41,7 @@ import backgroundImg8 from './images/Rectangle9.png'
 import backgroundImg9 from './images/Rectangle10.png'
 
 import Top_trending_section_slider from './top_trending_section_slider/Slider'
-import Higlighted_Section from './highlighted_Section/Slider';
+// import Higlighted_Section from './highlighted_Section/Slider';
 import App2 from './featuredProjects_Slider/Slider';
 import Learning_section_group_cards from './collectiondiv/learning_section_group_cards';
 import Collection_only_one from './collectiondiv/collection_only_one';
@@ -231,8 +232,8 @@ function App() {
               <img src="images/Polygon 4.png" id="left_click_btn" />
             </div>
 
-            <Higlighted_Section />
 
+            <Slider/>
             <div className='high_right_click_div'>
               <img src="images/Polygon 5.png" id="right_click_btn" />
             </div>
