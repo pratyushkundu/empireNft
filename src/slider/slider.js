@@ -3,6 +3,8 @@ import Card from '../collectiondiv/card'
 import './slider.css';
 import $ from 'jquery';
 import jQuery from 'jquery';
+import img_left from '../images/Polygon 4.png'
+import img_right from '../images/Polygon 5.png'
 
 const slider = () => {
 
@@ -16,13 +18,13 @@ const slider = () => {
             };
             $.extend(true, setting, options);
             var states = [
-                { $zIndex: 1, width: 288, height: 419, top: 20.5, left: 200, $opacity: 0.2 },
-                { $zIndex: 2, width: 288, height: 419, top: 21, left: 0, $opacity: 0.4 },
-                { $zIndex: 3, width: 288, height: 419, top: 20, left: 220, $opacity: 0.7 },
-                { $zIndex: 4, width: 288, height: 420, top: 17, left: 390, $opacity: 1},
-                { $zIndex: 3, width:288, height: 419, top: 20, left: 560, $opacity: 0.7 },
-                { $zIndex: 2, width: 288, height: 419, top: 21, left: 700, $opacity: 0.4 },
-                { $zIndex: 1, width: 288, height: 419, top: 20.5, left: 600, $opacity: 0.2 }
+                { $zIndex: 1, width: "28rem", height: "41.9rem", top: "2.05rem", left: "20rem", $opacity: 0.2 },
+                { $zIndex: 2, width: "28rem", height: "41.9rem", top: "2.1rem", left: "0rem", $opacity: 0.4 },
+                { $zIndex: 3, width: "28rem", height: "41.9rem", top: "2rem", left: "22rem", $opacity: 0.7 },
+                { $zIndex: 4, width: "28rem", height: "42rem", top: "1.7rem", left: "39rem", $opacity: 1},
+                { $zIndex: 3, width:"28rem", height: "41.9rem", top: "2rem", left: "56rem", $opacity: 0.7 },
+                { $zIndex: 2, width: "28rem", height: "41.9rem", top: "2.1rem", left: "70rem", $opacity: 0.4 },
+                { $zIndex: 1, width: "28rem", height: "41.9rem", top: "2.05rem", left: "60rem", $opacity: 0.2 }
             ];
     
             var $lis = $ele.find('li');
@@ -75,8 +77,12 @@ const slider = () => {
     return (<>
         <br /><br />
         <div className="slide hi-slide" onLoad={fire}>
-            <div className="hi-prev"></div>
-            <div className="hi-next"></div>
+            <div className="hi-prev" >
+                <img src={img_left}/>
+            </div>
+            <div className="hi-next">
+            <img src={img_right}/>
+            </div>
             <ul>
                 <li>
                     <Card />

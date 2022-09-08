@@ -1,19 +1,16 @@
-* {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-}
-html {
-  font-size: 62.5%;
-}
 
+.slick-slider .slick-list {
+  /* transform: translate3d(0, 0, 0); */
+  padding: 0 16rem;
+}
 .slide-container {
   width: 130rem;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  margin-left: 20rem;
 }
 .fade_out {
   width: 100%;
@@ -21,6 +18,7 @@ html {
   display: flex;
   flex-direction: row;
   margin-top: 12rem;
+
 }
 .left_click_div {
   width: 16rem;
@@ -35,7 +33,7 @@ html {
   height: 47.8rem;
   background: #02172a;
   /* filter: blur(3.5rem); */
-  filter: drop-shadow(-5rem 3px 3.5rem #02172a);
+  filter: drop-shadow(-7rem 3px 3.5rem #02172a);
   /* border: 2px solid white; */
 }
 
@@ -44,6 +42,167 @@ html {
   width: 111.6rem;
   height: 43.3rem;
 }
+.nft_card {
+  /* position: absolute; */
+  width: 30rem;
+  height: 44rem;
+  background: #072036;
+  border-radius: 1.5rem;
+  /* margin-left: 20rem; */
+  /* margin-top: 10rem; */
+  /* border: 2px solid white; */
+}
+.card_div_top {
+  width: 26rem;
+  height: 27.4rem;
+  border-radius: 1rem;
+  margin-left: 1.4rem;
+  /* margin-top: 1.4rem; */
+  padding-top: 1.4rem;
+}
+.nft_img {
+  background: url("../images/NFT1.png");
+  background-size: 100% 100%;
+  object-fit: cover;
+  width: 26rem;
+  height: 26rem;
+  border-radius: 1rem;
+}
+.card_div_bottom {
+  margin-top: 1rem;
+  margin-left: 1.4rem;
+}
+.naming_likes_div {
+  display: flex;
+  flex-direction: row;
+  gap: 9.99rem;
+}
+.Naming_div {
+  width: 12.2rem;
+  height: 4.6rem;
+  display: flex;
+  flex-direction: column;
+}
+.nft_name {
+  width: 5.7rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #a4a4a4;
+}
+.nft_hastag {
+  margin-top: 1rem;
+  width: 12.2rem;
+  height: 1.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #a4a4a4;
+}
+.likes_div {
+  width: 3.9rem;
+  height: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.494rem;
+}
+.likes_number {
+  width: 1.7rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #a4a4a4;
+}
+.pricing_div {
+  width: 26rem;
+  height: 6.1rem;
+  background: #0e2c47;
+  border-radius: 0.7rem;
+  margin-top: 1.4rem;
+  margin-left: 1.4rem;
+  padding: 1rem;
+}
+.pricing_inner_div {
+  display: flex;
+  flex-direction: row;
+  gap: 4.8rem;
+}
+.pricing_left {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  height: 4.1rem;
+}
+.listed_price_head {
+  width: 8rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #a4a4a4;
+}
+.listed_price {
+  margin-left: 0.2rem;
+  width: 5.8rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #ececec;
+  margin-top: 0.7rem;
+}
+.pricing_right {
+  width: 9.2rem;
+  height: 4.1rem;
+  display: flex;
+  flex-direction: column;
+}
+.highest_price_head {
+  width: 9.2rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #a4a4a4;
+}
+.highest_price {
+  margin-left: 0.4rem;
+  width: 7rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #ececec;
+  margin-top: 0.7rem;
+}
+
 
 .arrow {
   width: 2rem;

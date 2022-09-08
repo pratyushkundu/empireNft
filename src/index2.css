@@ -32,14 +32,18 @@ html {
   height: 47.8rem;
   background: #02172a;
   /* filter: blur(3.5rem); */
-  filter: drop-shadow(5rem 3px 3.5rem #02172a);
+  box-shadow: 4rem 1rem 30rem 14rem #02172a;
+  /* filter: drop-shadow(5rem 3px 3.5rem #02172a); */
   /* border: 2px solid white; */
+  z-index: 1;
 }
 .right_click_div {
   width: 16rem;
   height: 47.8rem;
   background: #02172a;
   /* filter: blur(3.5rem); */
+  /* box-shadow: -4rem 1rem 30rem 15rem #02172a; */
+  z-index: 1;
   filter: drop-shadow(-5rem 3px 3.5rem #02172a);
   /* border: 2px solid white; */
 }
@@ -47,6 +51,7 @@ html {
   
     margin-top: 20rem;
     margin-left:6.7rem ;
+
 }
 #right_click_btn{
 
@@ -57,6 +62,7 @@ html {
   /* border: 2px solid white; */
   width: 111.6rem;
   height: 43.3rem;
+  /* margin-left: 16.2rem; */
 }
 
 .arrow {

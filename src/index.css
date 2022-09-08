@@ -9,10 +9,11 @@ html {
 .main_div {
   position: relative;
   width: 144rem;
-  height: 794.9rem;
+  height: 790rem;
   /* Dark/Background */
   background: #02172a;
 }
+
 .hero_section {
   position: absolute;
   width: 144rem;
@@ -712,10 +713,10 @@ row-gap: 4rem;
   /* margin-top: -2rem; */
 }
 .info_imgs_background {
-  width: 5.2rem;
-  height: 5.2rem;
+  /* width: 5.2rem;
+  height: 5.2rem; */
   border-radius: 2.6rem;
-  background: url("images/Ellipse63.png");
+  /* background: url("images/Ellipse63.png"); */
 }
 .group_up_infos_head {
   width: 27.2rem;
@@ -832,8 +833,8 @@ row-gap: 4rem;
   margin-left: 24rem;
 }
 .about_us_head {
-  width: 117px;
-  height: 26px;
+  width: 11.7rem;
+  height: 2.6rem;
   font-family: "Gilroy-Bold";
   font-size: 2.6rem;
   line-height: 100%;
@@ -847,7 +848,7 @@ row-gap: 4rem;
   width: 13.5rem;
   height: 2rem;
   font-family: "Gilroy-Medium";
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 100%;
   letter-spacing: 0.04em;
   text-transform: capitalize;
@@ -932,7 +933,7 @@ row-gap: 4rem;
   width: 31.7rem;
   height: 2rem;
   font-family: "Gilroy-Medium";
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 100%;
   letter-spacing: 0.04em;
   text-transform: capitalize;
@@ -947,52 +948,67 @@ row-gap: 4rem;
   object-fit: cover;
   background: no-repeat;
   background-size: 100% 100%;
+  width:1.9rem;
+  height:1.492rem;
 }
 #img2 {
   margin-top: 1.1rem;
   margin-left: 1rem;
+  width:2.04rem;
+  height:1.56rem;
 }
 #img3 {
   margin-top: 0.9rem;
   margin-left: 0.9rem;
+  width:2.08rem;
+  height:2.05rem
 }
 #img4 {
   margin-top: 0.9rem;
   margin-left: 0.9rem;
+  width:2.05rem;
+  height:2.05rem
 }
 
-@media (min-width:1441px) and (max-width:1538px){
+@media (min-width:1440px) and (max-width:1520px){
   html {
     font-size: 65.95%;
+  }
+}
+ @media (min-width:1520px) and (max-width:1611px){
+  html {
+    font-size: 70%;
+  }
+}
+@media (min-width:1611px) and (max-width:1705px) {
+  html {
+    font-size: 74%;
+  }
+}
+@media (min-width:1705px) and (max-width:1820px){
+  html {
+    font-size: 79%;
+  }
+}
+@media (min-width:1820px) and (max-width:1960px){
+  html {
+    font-size: 85%;
+  }
+}
 
-  }
-  .collection_div_2 {
-    /* position: absolute; */
-    width: 32.6rem;
-    height: 30rem;
-    /* background: url(images/Rectangle1.png) no-repeat; */
-    border-radius: 1.4rem;
-  }
- 
-}
-@media (min-width:1539px) and (max-width:1670px){
+@media (min-width:1960px) and (max-width:2050px){
   html {
-    font-size: 72.5%;
+    font-size: 89%;
   }
 }
-@media (min-width:1670px) and (max-width:1774px) {
+@media (min-width:1960px) and (max-width:2180px) {
   html {
-    font-size: 77%;
+    font-size: 95%;
   }
 }
-@media (min-width:1774px) and (max-width:1959px){
+@media (min-width:2180px) {
   html {
-    font-size: 82.5%;
-  }
-}
-@media (min-width:1960px) {
-  html {
-    font-size: 90%;
+    font-size: 100%;
   }
 }
 

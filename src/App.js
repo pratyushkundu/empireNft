@@ -25,10 +25,9 @@ import pic2 from './images/Group2.png'
 import pic3 from './images/Group3.png'
 import pic4 from './images/Group4.png'
 import pic5 from './images/Group5.png'
-import pict1 from './images/image8.png'
-import pict2 from './images/image9.png'
-import pict3 from './images/image10.png'
-import pict4 from './images/image11.png'
+import pict1 from './images/Group 427319298.png'
+import pict2 from './images/Group 427319299.png'
+import pict3  from './images/Group 427319299.png'
 
 import backgroundImg from './images/Rectangle1.png'
 import backgroundImg1 from './images/Rectangle2.png'
@@ -182,7 +181,7 @@ function App() {
           <div className='fade_out'>
 
             <div className='left_click_div'>
-              <img src="images/Polygon 4.png" id="left_click_btn" />
+              {/* <img src="images/Polygon 4.png" id="left_click_btn" /> */}
             </div>
             {/* <div className='nft_cards_div'>
               <section className="container" id="slider">
@@ -218,7 +217,7 @@ function App() {
             <Top_trending_section_slider />
 
             <div className='right_click_div'>
-              <img src="images/Polygon 5.png" id="right_click_btn" />
+              {/* <img src="images/Polygon 5.png" id="right_click_btn" /> */}
             </div>
           </div>
         </div>
@@ -229,13 +228,13 @@ function App() {
           <div className='highlighted_div_bottom'>
 
             <div className='high_left_click_div'>
-              <img src="images/Polygon 4.png" id="left_click_btn" />
+              {/* <img src="images/Polygon 4.png" id="left_click_btn" /> */}
             </div>
 
 
             <Slider/>
             <div className='high_right_click_div'>
-              <img src="images/Polygon 5.png" id="right_click_btn" />
+              {/* <img src="images/Polygon 5.png" id="right_click_btn" /> */}
             </div>
 
           </div>
@@ -284,7 +283,7 @@ function App() {
             <div className='group_down'>
               <div className='group_down_infos'>
                 <div className='info_imgs_background'>
-                  <img src="images/image10.png" className="info_imgs" />
+                  <img src="images/Group 427319298.png" className="info_imgs" />
                 </div>
 
 
