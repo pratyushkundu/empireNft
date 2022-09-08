@@ -990,7 +990,7 @@ html {
     font-size: 79%;
   }
 } */
-/* @media (min-width:1820px) and (max-width:1960px){
+@media (min-width:1820px) and (max-width:1960px){
   html {
     font-size: 85%;
   }
@@ -1010,7 +1010,7 @@ html {
   html {
     font-size: 100%;
   }
-} */
+}
 
 /* .higlighted_items_div{
   display: flex;
