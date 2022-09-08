@@ -970,12 +970,12 @@ row-gap: 4rem;
   height:2.05rem
 }
 
-@media (min-width:1440px) and (max-width:1520px){
+@media (min-width:1440px) and (max-width:1540px){
   html {
     font-size: 65.95%;
   }
 }
- @media (min-width:1520px) and (max-width:1611px){
+ /* @media (min-width:1520px) and (max-width:1611px){
   html {
     font-size: 69%;
   }
@@ -1010,7 +1010,7 @@ row-gap: 4rem;
   html {
     font-size: 100%;
   }
-}
+} */
 
 /* .higlighted_items_div{
   display: flex;
