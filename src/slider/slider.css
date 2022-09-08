@@ -23,7 +23,7 @@ h1 {
 .hi-slide .hi-next,
 .hi-slide .hi-prev {
   position: absolute;
-  /* top: 50%; */
+  top: 50%;
   width: 4rem;
   height: 4rem;
   margin-top: -2rem;
