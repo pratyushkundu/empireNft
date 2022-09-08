@@ -291,6 +291,7 @@ html {
   color: #aaafb3;
   margin-top: 1.7rem;
 }
+
 .popular_collections_1 {
   margin-left: 55.7rem;
   margin-top: 11rem;
@@ -303,16 +304,16 @@ html {
   width: 32.6rem;
   height: 25.6rem;
   /* background: url(images/Rectangle4.png) no-repeat; */
-   margin-bottom: 6rem;
+  margin-bottom: 6rem;
 }
 .popular_collections_2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-row-gap: 4rem;
+  row-gap: 4rem;
   column-gap: 11.1rem;
   margin-left: 12rem;
- 
+  height:100rem;
 }
 .collection_div_2 {
   /* position: absolute; */
@@ -321,17 +322,17 @@ row-gap: 4rem;
   /* background: url(images/Rectangle1.png) no-repeat; */
   border-radius: 1.4rem;
 }
-#tata{
-  width:32.6rem;
-  z-index:-1;
-  height:12.8rem;
+#tata {
+  width: 32.6rem;
+  z-index: -1;
+  height: 12.8rem;
 }
 .verified_img {
   margin-top: -2rem;
   margin-left: 12.6rem;
   z-index: 9999;
 }
-.popular_collection_section{
+.popular_collection_section {
   z-index: 1;
   margin-top: -2rem;
 }
@@ -524,21 +525,20 @@ row-gap: 4rem;
   width: 22.4rem;
   height: 3rem;
   margin-top: 1rem;
-  background: #02172A;
-  color:whitesmoke;
+  background: #02172a;
+  color: whitesmoke;
   /* font-size: ; */
-  border:none;
+  border: none;
 
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
   font-size: 2.4rem;
   line-height: 120%;
 
-  text-align:center;
+  text-align: center;
   letter-spacing: 0.04em;
-  color: #AAAFB3;
-  
+  color: #aaafb3;
 }
 .top_trending_head {
   position: absolute;
@@ -558,7 +558,7 @@ row-gap: 4rem;
   width: 74.9rem;
   height: 68.4rem;
   margin-left: 34.5rem;
-  margin-top:16rem;
+  margin-top: 16rem;
 }
 .top_collectors_head {
   width: 27.1rem;
@@ -948,49 +948,49 @@ row-gap: 4rem;
   object-fit: cover;
   background: no-repeat;
   background-size: 100% 100%;
-  width:1.9rem;
-  height:1.492rem;
+  width: 1.9rem;
+  height: 1.492rem;
 }
 #img2 {
   margin-top: 1.1rem;
   margin-left: 1rem;
-  width:2.04rem;
-  height:1.56rem;
+  width: 2.04rem;
+  height: 1.56rem;
 }
 #img3 {
   margin-top: 0.9rem;
   margin-left: 0.9rem;
-  width:2.08rem;
-  height:2.05rem
+  width: 2.08rem;
+  height: 2.05rem;
 }
 #img4 {
   margin-top: 0.9rem;
   margin-left: 0.9rem;
-  width:2.05rem;
-  height:2.05rem
+  width: 2.05rem;
+  height: 2.05rem;
 }
 
-@media (min-width:1440px) and (max-width:1540px){
+@media (min-width: 1440px) and (max-width: 1537px) {
   html {
     font-size: 65.95%;
   }
 }
- /* @media (min-width:1520px) and (max-width:1611px){
+@media (min-width:1537px) and (max-width:1590px){
   html {
     font-size: 69%;
   }
 }
-@media (min-width:1611px) and (max-width:1705px) {
+@media (min-width:159px) and (max-width:1705px) {
   html {
     font-size: 74%;
   }
 }
-@media (min-width:1705px) and (max-width:1820px){
+/* @media (min-width:1705px) and (max-width:1820px){
   html {
     font-size: 79%;
   }
-}
-@media (min-width:1820px) and (max-width:1960px){
+} */
+/* @media (min-width:1820px) and (max-width:1960px){
   html {
     font-size: 85%;
   }
