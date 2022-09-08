@@ -980,7 +980,7 @@ html {
     font-size: 69%;
   }
 }
-@media (min-width:159px) and (max-width:1705px) {
+@media (min-width:1590px) and (max-width:1705px) {
   html {
     font-size: 74%;
   }
