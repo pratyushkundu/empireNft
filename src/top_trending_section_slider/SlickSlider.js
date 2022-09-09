@@ -288,38 +288,39 @@ const SliderWrapper = styled("div")`
   }
 
   .ft-slick__dots--custom {
-    height: 0.8rem;
-    width: 1.4rem;
-    background-color: #e5e7e9;
-    border-radius: 0.4rem;
+    height: 0.4rem;
+    width: 2.9rem;
+    background-color:rgba(217, 217, 217, 0.2);
+    border-radius: 0.1rem;
     position: relative;
+    margin-top:3.4rem
   }
 
   .slick-dots li {
-    width: 1.4rem;
+    width: 2.9rem;
     margin: 0 0.2rem;
     transition: width 0.3s ease-in-out;
   }
 
   .slick-dots .slick-active {
-    width: 5.6rem;
+    width: 2.9rem;
     transition: width 0.3s ease-in-out;
   }
 
   .slick-dots .slick-active .ft-slick__dots--custom {
-    width: 5.6rem;
-    top: 0px;
+    width: 2.9rem;
+    top: 2.8rem;
     overflow: hidden;
 
     .loading {
       height: 8px;
       animation: loading 5s ease-in;
-      background-image: linear-gradient(270deg, #4fd15a, #03ac0e);
+      background-color:#D9D9D9;
       display: inline-block;
       position: absolute;
       top: 0;
       left: 0;
-      border-radius: 0.4rem;
+      border-radius: 0.1rem;
     }
   }
 `;
