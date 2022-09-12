@@ -982,16 +982,16 @@ html {
   height: 2.05rem;
 }
 
-@media (min-width: 1440px) and (max-width: 1520px) {
+@media (min-width: 1440px) and (max-width: 1537px) {
   html {
-    font-size: 65.9%;
+    font-size: 65.95%;
   }
 }
-@media (min-width: 1521px) and (max-width: 1536px) {
+/* @media (min-width: 1521px) and (max-width: 1536px) {
   html {
     font-size: 65.95%
   }
-}
+} */
 @media (min-width: 1537px) and (max-width: 1590px) {
   html {
     font-size: 69%;
