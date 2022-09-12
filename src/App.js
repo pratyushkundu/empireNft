@@ -27,7 +27,7 @@ import pic4 from './images/Group4.png'
 import pic5 from './images/Group5.png'
 import pict1 from './images/Group 427319298.png'
 import pict2 from './images/Group 427319299.png'
-import pict3  from './images/Group 427319299.png'
+import pict3 from './images/Group 427319299.png'
 
 import backgroundImg from './images/Rectangle1.png'
 import backgroundImg1 from './images/Rectangle2.png'
@@ -232,7 +232,7 @@ function App() {
             </div>
 
 
-            <Slider/>
+            <Slider />
             <div className='high_right_click_div'>
               {/* <img src="images/Polygon 5.png" id="right_click_btn" /> */}
             </div>
@@ -307,7 +307,15 @@ function App() {
           </div>
         </div>
         {/* <div className='partner_div'>
-          <img src="images/Mask group.png" className='hide' />
+          <div className='hide1'>
+            <img src="images/Layer1.png" />
+          </div>
+          <div className='hide2'>
+            <img src="images/Layer2.png" className='hide2' />
+          </div>
+          <div className='hide3'>
+            <img src="images/Layer3.png" className='hide3' />
+          </div>
         </div> */}
         <div className='footer'>
           <div className='footer_top'>

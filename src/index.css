@@ -313,7 +313,7 @@ html {
   row-gap: 4rem;
   column-gap: 11.1rem;
   margin-left: 12rem;
-  height:100rem;
+  height: 100rem;
 }
 .collection_div_2 {
   /* position: absolute; */
@@ -746,8 +746,8 @@ html {
 .partnership_banner {
   width: 120rem;
   height: 32rem;
-  /* background: linear-gradient(137.08deg, #17EADB -4.18%, #8960EC 147.45%); */
-  background: url("images/Rect.png") no-repeat;
+  background: linear-gradient(137.08deg, #17eadb -4.18%, #8960ec 147.45%);
+  /* background: url("images/Rect.png") no-repeat; */
   background-size: 100% 100%;
   object-fit: cover;
   border-radius: 2rem;
@@ -759,11 +759,23 @@ html {
 .partner_div {
   /* opacity:0.4; */
   /* background: #2C2C2C; */
-  /* margin-top: -32rem; */
-  /* filter: brightness(20%); */
+  margin-top: -32rem;
+  filter: brightness(20%);
   margin-left: 12rem;
+  display: flex;
+  flex-direction: row;
+  gap:21.3rem
 }
-.hide {
+.hide1 {
+  /* margin-top: 16rem; */
+}
+.hide2 {
+  /* margin-left: 4rem;
+  margin-top: 8rem;
+  width: 57rem; */
+}
+.hide3 {
+  /* margin-left:5.2rem; */
 }
 
 .partnership_head {
@@ -782,7 +794,7 @@ html {
 }
 .get_in_touch {
   margin-top: 6rem;
-  margin-left: 52.6rem;
+  margin-left: 54rem;
 }
 .contact_button {
   display: flex;
@@ -970,43 +982,48 @@ html {
   height: 2.05rem;
 }
 
-@media (min-width: 1440px) and (max-width: 1537px) {
+@media (min-width: 1440px) and (max-width: 1520px) {
   html {
     font-size: 65.95%;
   }
 }
-@media (min-width:1537px) and (max-width:1590px){
+@media (min-width: 1521px) and (max-width: 1536px) {
+  html {
+    font-size: 65.95%
+  }
+}
+@media (min-width: 1537px) and (max-width: 1590px) {
   html {
     font-size: 69%;
   }
 }
-@media (min-width:1590px) and (max-width:1705px) {
+@media (min-width: 1590px) and (max-width: 1705px) {
   html {
     font-size: 74%;
   }
 }
-/* @media (min-width:1705px) and (max-width:1820px){
+@media (min-width: 1705px) and (max-width: 1820px) {
   html {
     font-size: 79%;
   }
-} */
-@media (min-width:1820px) and (max-width:1960px){
+}
+@media (min-width: 1820px) and (max-width: 1960px) {
   html {
     font-size: 85%;
   }
 }
 
-@media (min-width:1960px) and (max-width:2050px){
+@media (min-width: 1960px) and (max-width: 2050px) {
   html {
     font-size: 89%;
   }
 }
-@media (min-width:1960px) and (max-width:2180px) {
+@media (min-width: 1960px) and (max-width: 2180px) {
   html {
     font-size: 95%;
   }
 }
-@media (min-width:2180px) {
+@media (min-width: 2180px) {
   html {
     font-size: 100%;
   }
