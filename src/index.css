@@ -1014,7 +1014,13 @@ html {
     overflow-x: hidden;
   }
 }
-@media (min-width: 1590px) and (max-width: 1705px) {
+@media (min-width: 1590px) and (max-width: 1650px) {
+  html {
+    font-size: 71%;
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 1650px) and (max-width: 1705px) {
   html {
     font-size: 74%;
     overflow-x: hidden;
