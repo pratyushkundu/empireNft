@@ -5,24 +5,29 @@
 }
 html {
   font-size: 62.5%;
+  /* overflow-x: hidden; */
 }
 .main_div {
   position: relative;
   width: 144rem;
-  height: 790rem;
+  height: 813rem;
   /* Dark/Background */
   background: #02172a;
 }
 
 .hero_section {
   position: absolute;
-  width: 144rem;
+  /* width: 144rem; */
   height: 104.4rem;
   left: 0px;
   top: 0px;
   background: url(images/backgroundhero.png) no-repeat;
   background-size: 100% 100%;
   object-fit: cover;
+}
+.empire_logo{
+  height:3.91rem;
+  width:18.04rem;
 }
 .top_div {
   position: absolute;
@@ -824,7 +829,7 @@ html {
 .footer {
   margin-top: 16rem;
   width: 144rem;
-  height: 46.6rem;
+  height: 46.8rem;
   display: flex;
   flex-direction: column;
   background: #012647;
@@ -981,53 +986,90 @@ html {
   width: 2.05rem;
   height: 2.05rem;
 }
-
-@media (min-width: 1440px) and (max-width: 1537px) {
+/* @media(max-width: 1705px) {
+  html {
+    font-size: 74%;
+  }
+}
+@media(max-width: 1590px) {
+  html {
+    font-size: 68.7%;
+  }
+}
+ @media(max-width: 1540px) {
   html {
     font-size: 65.95%;
   }
-}
-/* @media (min-width: 1521px) and (max-width: 1536px) {
-  html {
-    font-size: 65.95%
-  }
 } */
+@media(min-width:1440px) and (max-width: 1537px) {
+  html {
+    font-size: 65.95%;
+    overflow-x: hidden;
+     
+  }
+}
 @media (min-width: 1537px) and (max-width: 1590px) {
   html {
     font-size: 69%;
+    overflow-x: hidden;
   }
 }
 @media (min-width: 1590px) and (max-width: 1705px) {
   html {
     font-size: 74%;
+    overflow-x: hidden;
   }
 }
+
 @media (min-width: 1705px) and (max-width: 1820px) {
   html {
     font-size: 79%;
+    overflow-x: hidden;
   }
 }
-@media (min-width: 1820px) and (max-width: 1960px) {
+@media (min-width: 1820px) and (max-width: 1892px) {
   html {
-    font-size: 85%;
+    font-size: 82%;
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 1892px) and (max-width: 1960px) {
+  html {
+    font-size: 84%;
+    overflow-x: hidden;
   }
 }
 
 @media (min-width: 1960px) and (max-width: 2050px) {
   html {
     font-size: 89%;
+    overflow-x: hidden;
   }
 }
-@media (min-width: 1960px) and (max-width: 2180px) {
+@media (min-width: 2050px) and (max-width: 2130px) {
+  html {
+    font-size: 92%;
+       overflow-x: hidden;
+  }
+}
+@media (min-width: 2130px) and (max-width: 2215px){
   html {
     font-size: 95%;
+    overflow-x: hidden;
   }
-}
-@media (min-width: 2180px) {
+} 
+@media (min-width: 2215px) and (max-width: 2275px){
+  html {
+    font-size: 98%;
+    overflow-x: hidden;
+  }
+} 
+@media (min-width: 2275px){
   html {
     font-size: 100%;
+    overflow-x: hidden;
   }
-}
+} 
 
 /* .higlighted_items_div{
   display: flex;
