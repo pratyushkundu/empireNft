@@ -3,9 +3,9 @@
   margin: 0px;
   padding: 0px;
 }
+
 html {
   font-size: 62.5%;
-  /* overflow-x: hidden; */
 }
 .main_div {
   position: relative;
@@ -17,7 +17,7 @@ html {
 
 .hero_section {
   position: absolute;
-  /* width: 144rem; */
+  width: 144rem;
   height: 104.4rem;
   left: 0px;
   top: 0px;
@@ -164,8 +164,12 @@ html {
 .hero_imgs {
 }
 .line_stroke {
+  width:134rem;
   margin-top: -2.2rem;
   margin-left: 7rem;
+}
+.stroke {
+  width:134rem;
 }
 .partners_div {
   margin-top: -0.6rem;
@@ -174,6 +178,13 @@ html {
   width: 144rem;
   height: 11.6rem;
   background: #072036;
+}
+.partners_logos,.img_logos{
+  height:3.3rem;
+  /* width:16.7rem */
+}
+.img_logos{
+  height:3.3rem;
 }
 .partners_section {
   display: flex;
@@ -986,21 +997,53 @@ html {
   width: 2.05rem;
   height: 2.05rem;
 }
-/* @media(max-width: 1705px) {
+@media(min-width:997px) and (max-width: 1060px) {
   html {
-    font-size: 74%;
+    font-size: 45%;
+    overflow-x: hidden;
+     
   }
 }
-@media(max-width: 1590px) {
+@media(min-width:1060px) and (max-width: 1130px) {
   html {
-    font-size: 68.7%;
+    font-size: 48%;
+    overflow-x: hidden;
+     
   }
 }
- @media(max-width: 1540px) {
+@media(min-width:1130px) and (max-width: 1220px) {
   html {
-    font-size: 65.95%;
+    font-size: 52%;
+    overflow-x: hidden;
+     
   }
-} */
+}
+@media(min-width:1220px) and (max-width: 1280px) {
+  html {
+    font-size: 55%;
+    overflow-x: hidden;
+     
+  }
+}
+@media(min-width:1280px) and (max-width: 1340px) {
+  html {
+    font-size: 57.5%;
+    overflow-x: hidden;
+     
+  }
+}
+@media(min-width:1340px) and (max-width: 1440px) {
+  html {
+    font-size: 60.5%;
+    overflow-x: hidden;
+  }
+}
+@media(min-width:1410px) and (max-width: 1440px) {
+  html {
+    font-size: 61.5%;
+    overflow-x: hidden;
+  }
+}
 @media(min-width:1440px) and (max-width: 1537px) {
   html {
     font-size: 65.95%;
@@ -1008,10 +1051,11 @@ html {
      
   }
 }
+
 @media (min-width: 1537px) and (max-width: 1590px) {
   html {
     font-size: 69%;
-    overflow-x: hidden;
+    overflow-x: hidden
   }
 }
 @media (min-width: 1590px) and (max-width: 1650px) {
